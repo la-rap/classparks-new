@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Classes Gallery | CLASS Parks</title>
+
+        <!-- Bootstrap 5 CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Global LA City Navigation -->
+        <script src="//navbar.lacity.org/global_nav.js"></script>
+
+        <!-- Your global styles (variables, badges, titles, footer, etc.) -->
+        <link rel="stylesheet" href="../../css/styles.css" />
+    </head>
+
+    <body>
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <div class="contact-info">
+                            <span>
+                                <i class="fas fa-map-marker-alt"></i>
+                                3900 Chevy Chase Drive, Los Angeles, CA
+                            </span>
+                            <span>
+                                <i class="fas fa-envelope"></i>
+                                Class.Parks@lacity.org
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex justify-content-end">
+                            <div class="social-links">
+                                <span>Follow Us:</span>
+                                <a
+                                    href="https://www.facebook.com/CLASS-Parks-Teen-Program-246812249353728/"
+                                >
+                                    <i
+                                        class="fab fa-facebook-f"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <span class="visually-hidden">
+                                        CLASS Parks Teen Program on Facebook
+                                    </span>
+                                </a>
+                                <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                                <a
+                                    href="https://www.instagram.com/lacityparks/"
+                                >
+                                    <i
+                                        class="fab fa-instagram"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <span class="visually-hidden">
+                                        LA City Parks on Instagram
+                                    </span>
+                                </a>
+                                <!-- <a href="#"><i class="fab fa-youtube"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header -->
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="../../index.html">
+                        <img src="../../img/logo.png" alt="CLASS Parks Logo" />
+                    </a>
+
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link fs-5"
+                                    href="../../index.html#home"
+                                >
+                                    About
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link fs-5 active"
+                                    href="../../index.html#adventure"
+                                >
+                                    Adventure
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5" href="../../yeip.html">
+                                    YEIP
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link fs-5"
+                                    href="../../flyers.html"
+                                >
+                                    Flyers
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link fs-5"
+                                    href="../../gallery.html"
+                                >
+                                    Gallery
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link fs-5"
+                                    href="https://www.laparks.org/class-parks-teen-club-sites"
+                                >
+                                    Teen Club Sites
+                                </a>
+                            </li>
+                        </ul>
+
+                        <a
+                            href="https://drive.google.com/drive/folders/19QJypHpj5hl3Mq1e5cW2kZA5bkmBd7VU"
+                            target="_blank"
+                            class="btn btn-primary-custom text-white"
+                        >
+                            <i class="fas fa-download me-2"></i>
+                            Apply Now
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Gallery Section -->
+        <section class="masonry-gallery">
+            <div class="gallery-container">
+                <a href="../../gallery.html" class="back-button">
+                    <i class="fas fa-arrow-left"></i>
+                    Back to All Galleries
+                </a>
+
+                <div class="gallery-header">
+                    <div class="section-badge">Photo Collection</div>
+                    <h1 class="section-title">Classes</h1>
+                    <p class="text-muted">
+                        Skill-building classes in arts, tech, fitness, and more
+                        at LA City Parks.
+                    </p>
+                </div>
+
+                <!-- Toast-style Masonry Grid -->
+                <div class="gallery-grid" id="toastGrid">
+                    <!-- 1..10 -->
+                    <a
+                        class="gallery-item"
+                        data-index="0"
+                        data-full="1.jpg"
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                    >
+                        <img
+                            loading="lazy"
+                            src="1-600.jpg"
+                            alt="Classes Photo 1"
+                        />
+                    </a>
+
+                    <a
+                        class="gallery-item"
+                        data-index="1"
+                        data-full="2.jpg"
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                    >
+                        <img
+                            loading="lazy"
+                            src="2-600.jpg"
+                            alt="Classes Photo 2"
+                        />
+                    </a>
+
+                    <a
+                        class="gallery-item"
+                        data-index="2"
+                        data-full="3.jpg"
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                    >
+                        <img
+                            loading="lazy"
+                            src="3-600.jpg"
+                            alt="Classes Photo 3"
+                        />
+                    </a>
+
+                    <a
+                        class="gallery-item"
+                        data-index="3"
+                        data-full="4.jpg"
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                    >
+                        <img
+                            loading="lazy"
+                            src="4-600.jpg"
+                            alt="Classes Photo 4"
+                        />
+                    </a>
+
+                    <a
+                        class="gallery-item"
+                        data-index="4"
+                        data-full="5.jpg"
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                    >
+                        <img
+                            loading="lazy"
+                            src="5-600.jpg"
+                            alt="Classes Photo 5"
+                        />
+                    </a>
+
+                    <a
+                        class="gallery-item"
+                        data-index="5"
+                        data-full="6.jpg"
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                    >
+                        <img
+                            loading="lazy"
+                            src="6-600.jpg"
+                            alt="Classes Photo 6"
+                        />
+                    </a>
+
+                    <a
+                        class="gallery-item"
+                        data-index="6"
+                        data-full="7.jpg"
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                    >
+                        <img
+                            loading="lazy"
+                            src="7-600.jpg"
+                            alt="Classes Photo 7"
+                        />
+                    </a>
+
+                    <a
+                        class="gallery-item"
+                        data-index="7"
+                        data-full="8.jpg"
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                    >
+                        <img
+                            loading="lazy"
+                            src="8-600.jpg"
+                            alt="Classes Photo 8"
+                        />
+                    </a>
+
+                    <a
+                        class="gallery-item"
+                        data-index="8"
+                        data-full="9.jpg"
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                    >
+                        <img
+                            loading="lazy"
+                            src="9-600.jpg"
+                            alt="Classes Photo 9"
+                        />
+                    </a>
+
+                    <!-- <a class="gallery-item" data-index="9"
+                    data-full="10.jpg" data-bs-toggle="modal"
+                    data-bs-target="#imageModal">
+                    <img loading="lazy" src="10-600.jpg"
+                        alt="Classes Photo 10">
+                </a> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Image Modal with Prev/Next -->
+        <div
+            class="modal fade"
+            id="imageModal"
+            tabindex="-1"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div
+                    class="modal-content"
+                    style="background: transparent; border: none"
+                >
+                    <div class="modal-body p-0 position-relative">
+                        <button
+                            type="button"
+                            class="btn-close btn-close-white position-absolute top-0 end-0 m-3"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                            style="
+                                z-index: 1001;
+                                border-radius: 50%;
+                                opacity: 1;
+                            "
+                        ></button>
+
+                        <button
+                            class="modal-nav modal-prev"
+                            type="button"
+                            aria-label="Previous"
+                        >
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                        <button
+                            class="modal-nav modal-next"
+                            type="button"
+                            aria-label="Next"
+                        >
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+
+                        <img
+                            id="modalImage"
+                            src=""
+                            alt="Classes Gallery"
+                            class="img-fluid w-100"
+                            style="border-radius: 12px"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer id="contact">
+            <div class="container">
+                <div class="footer-content">
+                    <div>
+                        <div class="footer-brand">
+                            <i class="fas fa-seedling me-2"></i>
+                            CLASS Parks
+                        </div>
+                        <p class="footer-description">
+                            Empowering Los Angeles teens through safe,
+                            supervised programs that build confidence, skills,
+                            and community connections.
+                        </p>
+                        <div class="footer-social">
+                            <a
+                                href="https://www.facebook.com/CLASS-Parks-Teen-Program-246812249353728/"
+                            >
+                                <i
+                                    class="fab fa-facebook-f"
+                                    aria-hidden="true"
+                                ></i>
+                                <span class="visually-hidden">
+                                    CLASS Parks Teen Program on Facebook
+                                </span>
+                            </a>
+                            <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                            <a href="https://www.instagram.com/lacityparks/">
+                                <i
+                                    class="fab fa-instagram"
+                                    aria-hidden="true"
+                                ></i>
+                                <span class="visually-hidden">
+                                    LA City Parks on Instagram
+                                </span>
+                            </a>
+                            <!-- <a href="#"><i class="fab fa-youtube"></i></a> -->
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="footer-title">Quick Links</h4>
+                        <ul class="footer-links ps-0">
+                            <li><a href="../../index.html">Home</a></li>
+                            <li><a href="../../index.html#about">About</a></li>
+                            <li>
+                                <a href="../../index.html#programs">Programs</a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.laparks.org/class-parks-teen-club-sites"
+                                >
+                                    Teen Club Sites
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="footer-title">Programs</h4>
+                        <ul class="footer-links ps-0">
+                            <li>
+                                <a href="../../index.html#adventure">
+                                    Adventure
+                                </a>
+                            </li>
+                            <li><a href="../../yeip.html">YEIP</a></li>
+                            <li>
+                                <a href="../../yeip.html#courses">Classes</a>
+                            </li>
+                            <li>
+                                <a href="../../gallery/special-events/">
+                                    Special Events
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="footer-title">Contact Info</h4>
+                        <ul class="footer-links ps-0">
+                            <li>
+                                <i class="fas fa-map-marker-alt me-2"></i>
+                                3900 Chevy Chase Drive
+                                <br />
+                                Los Angeles, CA 90039
+                            </li>
+                            <li>
+                                <i class="fas fa-phone me-2"></i>
+                                (818) 243-2490
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope me-2"></i>
+                                Class.Parks@lacity.org
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="footer-logos">
+                        <a
+                            href="https://www.lacity.org/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img src="citySeal.png" alt="City of Los Angeles" />
+                        </a>
+                        <a
+                            href="https://www.laparks.org/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src="rap-logo-white-small.png"
+                                alt="LA Parks & Recreation"
+                            />
+                        </a>
+                    </div>
+                    <p>
+                        &copy; 2025 CLASS Parks - Los Angeles Department of
+                        Recreation & Parks. All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap Bundle -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Smooth Scrolling -->
+        <script src="../../js/scripts.js"></script>
+
+        <!-- Gallery Script -->
+        <script src="../../js/gallery.js"></script>
+    </body>
+</html>
